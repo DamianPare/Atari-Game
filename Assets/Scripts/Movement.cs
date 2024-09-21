@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Speed at which the player moves
+    public float moveSpeed = 5f; // Speed of the player
+    private Rigidbody2D rb; // Reference to the Rigidbody2D component
+    private Vector2 movement; // Store movement input
 
-    private Rigidbody2D rb;
-
-    void Start()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
     }
 
-    void Update()
+    private void Update()
     {
-        // Get input from WASD keys
-        float moveHorizontal = Input.GetKey(KeyCode.D) ? 1 : (Input.GetKey(KeyCode.A) ? -1 : 0);
-        float moveVertical = Input.GetKey(KeyCode.W) ? 1 : (Input.GetKey(KeyCode.S) ? -1 : 0);
+        // Reset movement vector
+        movement = Vector2.zero;
 
-        // Create a movement vector
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+        // Get input from keyboard for WASD keys
+        if (Input.GetKey(KeyCode.W)) movement.y = 1f; // Move up
+        if (Input.GetKey(KeyCode.S)) movement.y = -1f; // Move down
+        if (Input.GetKey(KeyCode.A)) movement.x = -1f; // Move left
+        if (Input.GetKey(KeyCode.D)) movement.x = 1f; // Move right
+    }
 
-        // Apply movement to the Rigidbody2D
-        rb.velocity = movement * moveSpeed;
+    private void FixedUpdate()
+    {
+        // Move the player
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
