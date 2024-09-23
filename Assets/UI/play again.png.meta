@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: 5896c20431fb30840a4f4bb601738fd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2204063386673219973
+    second: play again_0
+  - first:
+      213: -4779681455745874886
+    second: play again_1
+  - first:
+      213: 7154721399057250581
+    second: play again_2
+  - first:
+      213: -5126291687660706454
+    second: play again_3
+  - first:
+      213: 2578215132252052376
+    second: play again_4
+  - first:
+      213: 4267647621261970297
+    second: play again_5
+  - first:
+      213: 2951994357678519489
+    second: play again_6
+  - first:
+      213: 2080344772012313881
+    second: play again_7
+  - first:
+      213: -2367872874162062142
+    second: play again_8
+  - first:
+      213: 8385130012357523523
+    second: play again_9
+  - first:
+      213: -8580938276024554695
+    second: play again_10
+  - first:
+      213: -3777523940025861936
+    second: play again_11
+  - first:
+      213: -4328186052377263741
+    second: play again_12
+  - first:
+      213: 4339888697346510261
+    second: play again_13
+  - first:
+      213: -6171474473681124471
+    second: play again_14
+  - first:
+      213: 1101918225996179137
+    second: play again_15
+  - first:
+      213: -7249027261012722716
+    second: play again_16
+  - first:
+      213: 5453115567414337376
+    second: play again_17
+  - first:
+      213: -1579171429809659511
+    second: play again_18
+  - first:
+      213: 968178088910603577
+    second: play again_19
+  - first:
+      213: 5767672428950531455
+    second: play again_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: play again_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 44
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76f5e607089961e0800000000000000
+      internalID: -2204063386673219973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34ceb23a092badb0800000000000000
+      internalID: -4779681455745874886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 44
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51971b1843daa4360800000000000000
+      internalID: 7154721399057250581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6522fdced0cbd8b0800000000000000
+      internalID: -5126291687660706454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b9b68b009a7c320800000000000000
+      internalID: 2578215132252052376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b4cdb86eab93b30800000000000000
+      internalID: 4267647621261970297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4b26c5a3797f820800000000000000
+      internalID: 2951994357678519489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d822a4c8ededc10800000000000000
+      internalID: 2080344772012313881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 44
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc794e9a20a32fd0800000000000000
+      internalID: -2367872874162062142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 44
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3487906e157fd5470800000000000000
+      internalID: 8385130012357523523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 44
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93be00a0a126ae880800000000000000
+      internalID: -8580938276024554695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d87930adf9839bc0800000000000000
+      internalID: -3777523940025861936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381c04297b13fe3c0800000000000000
+      internalID: -4328186052377263741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 44
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd421ac6c16a3c30800000000000000
+      internalID: 4339888697346510261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_14
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98388dff9a48a5aa0800000000000000
+      internalID: -6171474473681124471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_15
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 44
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6e700d9ccca4f00800000000000000
+      internalID: 1101918225996179137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebb634fc18466b90800000000000000
+      internalID: -7249027261012722716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_17
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 44
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f52ea77bb5dab40800000000000000
+      internalID: 5453115567414337376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_18
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 44
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981efbe83f7a51ae0800000000000000
+      internalID: -1579171429809659511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_19
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 44
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93545dc97d8af6d00800000000000000
+      internalID: 968178088910603577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play again_20
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 44
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d29640483ea0050800000000000000
+      internalID: 5767672428950531455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      play again_0: -2204063386673219973
+      play again_1: -4779681455745874886
+      play again_10: -8580938276024554695
+      play again_11: -3777523940025861936
+      play again_12: -4328186052377263741
+      play again_13: 4339888697346510261
+      play again_14: -6171474473681124471
+      play again_15: 1101918225996179137
+      play again_16: -7249027261012722716
+      play again_17: 5453115567414337376
+      play again_18: -1579171429809659511
+      play again_19: 968178088910603577
+      play again_2: 7154721399057250581
+      play again_20: 5767672428950531455
+      play again_3: -5126291687660706454
+      play again_4: 2578215132252052376
+      play again_5: 4267647621261970297
+      play again_6: 2951994357678519489
+      play again_7: 2080344772012313881
+      play again_8: -2367872874162062142
+      play again_9: 8385130012357523523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
