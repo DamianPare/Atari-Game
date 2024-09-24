@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Walkable
+    uniqueID: 766033327
+    locked: 0
+  - name: Character
+    uniqueID: 1583651869
+    locked: 0
+  - name: Interactables
+    uniqueID: 172395605
+    locked: 0
