@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 0f;
         currentFuel = maxFuel;
         ShowStartScreen();
         playerController.enabled = false; // Disable player movement at start
@@ -43,6 +44,7 @@ public class GameManager : MonoBehaviour
 
     void StartGame()
     {
+        Time.timeScale = 1f;
         startScreen.SetActive(false);
         gameScreen.SetActive(true);
         currentFuel = maxFuel; // Reset fuel for new game
