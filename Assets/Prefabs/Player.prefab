@@ -341,8 +341,8 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.164
-  m_Color: {r: 0.509434, g: 0.47710875, b: 0.44935924, a: 1}
+  m_FalloffIntensity: 0.147
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
@@ -390,7 +390,6 @@ GameObject:
   - component: {fileID: 8434112347434245169}
   - component: {fileID: 2334940137220223599}
   - component: {fileID: 2295155919917887125}
-  - component: {fileID: 2732096764400857306}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -535,15 +534,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.472952, y: 0.50046504}
   m_EdgeRadius: 0
---- !u!114 &2732096764400857306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7183153758314874291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b1bd47cabcd4e40a33f0b36ab1e05f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

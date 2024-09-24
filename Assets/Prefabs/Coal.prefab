@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 5970875582800366775}
   - component: {fileID: 3390255701399576220}
   - component: {fileID: 6764628672510123882}
-  - component: {fileID: 1640241397933745431}
   m_Layer: 0
   m_Name: Coal
   m_TagString: Untagged
@@ -208,7 +207,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0056306124, y: -0.090088844}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -218,23 +217,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6396439, y: 0.90615654}
   m_EdgeRadius: 0
---- !u!114 &1640241397933745431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988232360275845878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8006f788f89a248ba6fc963aec6e03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coalPrefab: {fileID: 7988232360275845878}
-  pickupClip: {fileID: 8300000, guid: 20ba13e42d795f04b80ab0c27a078907, type: 3}
-  audioSource: {fileID: 3098084247058639534}
 --- !u!1 &8163299205123086219
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +263,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

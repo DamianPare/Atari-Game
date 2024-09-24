@@ -7,21 +7,21 @@ using UnityEngine.Rendering.Universal;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject startScreen; // Assign in Inspector
-    public GameObject gameScreen; // Assign in Inspector
+    public GameObject startScreen;
+    public GameObject gameScreen;
     public GameObject endScreen;
     public GameObject completedScreen;
     public Light2D playerLight;
-    public Text fuelText; // Assign in Inspector
     public GameObject[] uiTorches;
     public float maxFuel = 100f;
     public static GameManager instance;
     public float coalValue = 25f;
+    public Image timerBar;
 
     private bool gameEnded;
     private int litTorches;
     private float currentFuel;
-    public PlayerMovement playerController; // Reference to the player controller
+    public PlayerMovement playerController;
 
     void Start()
     {
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         currentFuel = maxFuel;
         ShowStartScreen();
-        playerController.enabled = false; // Disable player movement at start
+        playerController.enabled = false;
     }
 
     void Update()
@@ -43,8 +43,7 @@ public class GameManager : MonoBehaviour
         }
         else if (gameScreen.activeSelf)
         {
-            currentFuel -= Time.deltaTime; // Decrease fuel over time
-            UpdateFuelUI();
+            currentFuel -= Time.deltaTime;
 
             playerLight.pointLightOuterRadius = (currentFuel / 20);
             playerLight.intensity = (currentFuel / 50);
@@ -52,6 +51,16 @@ public class GameManager : MonoBehaviour
             if (currentFuel <= 0)
             {
                 EndGame();
+            }
+
+            if (currentFuel > maxFuel)
+            {
+                currentFuel = maxFuel;
+            }
+
+            if (currentFuel > 0)
+            {
+                timerBar.fillAmount = currentFuel / maxFuel;
             }
 
             if (litTorches == 4)
@@ -96,12 +105,6 @@ public class GameManager : MonoBehaviour
     {
         startScreen.SetActive(true);
         gameScreen.SetActive(false);
-        UpdateFuelUI();
-    }
-
-    void UpdateFuelUI()
-    {
-        fuelText.text = "Fuel: " + Mathf.Max(currentFuel, 0).ToString("F2");
     }
 
     public void UpdateTorchCount()
@@ -110,8 +113,22 @@ public class GameManager : MonoBehaviour
         litTorches += 1;
     }
 
+    public void CollectedCoal()
+    {
+        if (coalValue + currentFuel > maxFuel)
+        {
+            currentFuel = maxFuel;
+        }
+
+        if (coalValue + currentFuel < maxFuel)
+        {
+            currentFuel += coalValue;
+        }
+        
+    }
+
     public void AddTime()
     {
-        currentFuel += coalValue;
+        currentFuel += 10f * Time.deltaTime;
     }
 }

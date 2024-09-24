@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
+using UnityEngine.UI;
 
 public class CoalItem : MonoBehaviour
 {
@@ -8,17 +10,32 @@ public class CoalItem : MonoBehaviour
     private bool coalCollected = false;
     public AudioClip pickupClip;
     public AudioSource audioSource;
+    private bool inRange = false;
+    public float pauseTimer;
 
-    private void OnCollisionEnter2D(Collision2D other)
+    IEnumerator StartCountdown()
     {
-        Debug.Log("collided");
+        yield return new WaitForSeconds(pauseTimer);
+        audioSource.PlayOneShot(pickupClip);
+        coalPrefab.SetActive(false);
+        GameManager.instance.CollectedCoal();
+        coalCollected = true;
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        inRange = true;
+    }
 
-        if (coalCollected == false)
+    void OnTriggerExit2D(Collider2D col)
+    {
+        inRange = false;
+    }
+
+    private void Update()
+    {
+        if (coalCollected == false && Input.GetKeyDown(KeyCode.Space) && inRange)
         {
-            audioSource.PlayOneShot(pickupClip);
-            coalPrefab.SetActive(false);
-            GameManager.instance.AddTime();
-            coalCollected = true;
+            StartCoroutine(StartCountdown());
         }
     }
 }

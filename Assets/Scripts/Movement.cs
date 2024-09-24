@@ -50,7 +50,12 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isMoving?", true);
             spriteRenderer.flipX = false;
             movement.x = 1f;
-        }   
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))  // Move right
+        {
+            animator.SetTrigger("isAttacking");
+        }
     }
 
     private void FixedUpdate()
