@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 97030ae4bce7db7478c41763873a7d5c
+guid: 5f97b86e85cda8248900d166ee015dce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1425780241800016635
-    second: Tile_PathTR_Normal_0
+      213: 4560136705990168049
+    second: Torch_n_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,10 +48,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,26 +96,60 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tile_PathTR_Normal_0
+      name: Torch_n_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 35
         y: 0
         width: 64
-        height: 64
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf2b248639369c310800000000000000
-      internalID: 1425780241800016635
+      spriteID: 1fd83c76c2cd84f30800000000000000
+      internalID: 4560136705990168049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_n_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cbc67cb92af5d468addf729358e050
+      internalID: -251205036
       vertices: []
       indices: 
       edges: []
@@ -123,14 +157,16 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5f4ac16f6ac59a841b1dd2e9b9a4640a
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Torch_n_0: 4560136705990168049
+      Torch_n_1: -251205036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
