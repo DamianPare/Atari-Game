@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coal : MonoBehaviour
+public class CoalItem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int amount = 1; // Amount of coal to be collected
 
-    // Update is called once per frame
-    void Update()
+    // This method will be called when the player picks up the coal
+    public void PickUp()
     {
         
+        // Logic for collecting the coal (e.g., adding to inventory)
+        Debug.Log("Picked up " + amount + " coal!");
+
+        // Destroy the coal item after it has been collected
+        Destroy(gameObject);
     }
 }
