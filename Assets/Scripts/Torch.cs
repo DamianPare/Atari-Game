@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Torch : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject LitPrefab;
+    [SerializeField] private GameObject unLitPrefab;
+    private bool torchCollected = false;
+    public AudioClip pickupClip;
+    public AudioSource audioSource;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        
+        Debug.Log("collided");
+
+        if (torchCollected == false)
+        {
+            audioSource.PlayOneShot(pickupClip);
+            LitPrefab.SetActive(true);
+            unLitPrefab.SetActive(false);
+            GameManager.instance.UpdateTorchCount();
+            torchCollected = true;
+        }
     }
 }

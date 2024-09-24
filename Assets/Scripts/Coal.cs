@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class CoalItem : MonoBehaviour
 {
-    public int amount = 1; // Amount of coal to be collected
+    [SerializeField] private GameObject coalPrefab;
+    private bool coalCollected = false;
+    public AudioClip pickupClip;
+    public AudioSource audioSource;
 
-    // This method will be called when the player picks up the coal
-    public void PickUp()
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        
-        // Logic for collecting the coal (e.g., adding to inventory)
-        Debug.Log("Picked up " + amount + " coal!");
+        Debug.Log("collided");
 
-        // Destroy the coal item after it has been collected
-        Destroy(gameObject);
+        if (coalCollected == false)
+        {
+            audioSource.PlayOneShot(pickupClip);
+            coalPrefab.SetActive(false);
+            GameManager.instance.AddTime();
+            coalCollected = true;
+        }
     }
 }
